@@ -17,15 +17,6 @@
 - 🧹 Clear & Reset
 - 📱 Responsive & User Friendly Design
 
----
-
-## 🛠️ Tech Stack
-
-| Technology | Usage |
-|------------|-------|
-| 💻 HTML | Structure |
-| 🎨 CSS | Styling |
-| ⚡ JavaScript | Logic |
 
 ---
 
@@ -46,36 +37,6 @@ git clone https://github.com/annsayuri/Calculator.git
 cd Calculator
 ```
 
-3️⃣ **Open in your browser or VS Code**
-```bash
-code .
-```
-
----
-
-## 📸 Screenshot
-
-> 🖼️ *(Add your screenshot here!)*
-
----
-
-## 🤝 Contributing
-
-Contributions are always welcome! 😊
-
-1. Fork the project 🍴
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request 🎉
-
----
-
-## 📝 License
-
-This project is open source and available under the [MIT License](LICENSE) 📄
-
----
 
 ## 👩‍💻 Author
 
