@@ -1,11 +1,12 @@
-import javax.swing.JOptionPane;
+
+import java.swing.JOptionPane;
 
 public class CalV1{
     public static void main(String[] args){
 
         String opcode = JOptionPane.showInputDialog("Select Operation\n\n
         1. for Addition(+)\n" +
-        "2. for Sustraction(-) \n
+        "2. for Sustraction(-)\n
         3. for multiplication(*) \n
         4. for Division(/) \n
         5. for Remainder(%) ");
@@ -17,6 +18,7 @@ public class CalV1{
 
         String number2 = JOptionPane.showInputDialog("Enter Number 2 : ");
         int n2 = Integer.parseInt(number2);
+
 
         int ans = 0;
 
