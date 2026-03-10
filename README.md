@@ -55,7 +55,7 @@ code .
 
 ## 📸 Screenshot
 
-> 🖼️ *   *
+> 🖼️ 
 
 ---
 
