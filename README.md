@@ -19,16 +19,6 @@
 
 ---
 
-## 🛠️ Tech Stack
-
-| Technology | Usage |
-|------------|-------|
-| 💻 HTML | Structure |
-| 🎨 CSS | Styling |
-| ⚡ JavaScript | Logic |
-
----
-
 ## 🚀 Getting Started
 
 ### Prerequisites
