@@ -38,7 +38,7 @@ public class CalV3{
                 if(num2 != 0){
                     result = num1 / num2;
                 } else {
-                    JOptionPane.showMessageDialog(null, "❌ Error: Cannot divide by zero!");
+                    JOptionPane.showMessageDialog(null, "Error: Cannot divide by zero!");
                     return;
                 }
                 operationSymbol = "/";
@@ -48,7 +48,7 @@ public class CalV3{
                 operationSymbol = "%";
                 break;
             default:
-                JOptionPane.showMessageDialog(null, "❌ Invalid operation selected!");
+                JOptionPane.showMessageDialog(null, "Invalid operation selected! ");
                 return;
         }
 
