@@ -5,10 +5,7 @@ public class CalV1{
 
         String opcode = JOptionPane.showInputDialog("Select Operation\n\n" +
         "1. for Addition(+)\n" +
-        "2. for Sustraction(-)\n" +
-        "3. for multiplication(*) \n" +
-        "4. for Division(/) \n" +
-        "5. for Remainder(%) ");
+        "2. for Sustraction(-)\n");
 
         int op = Integer.parseInt(opcode);
 
