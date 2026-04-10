@@ -9,9 +9,13 @@ public class CalV4{
             + "3. for Multiplication(*)\n"
             + "4. for Division(/) \n"
             + "5. for Remainder(%) \n "
-            + "0. for Exit)";
+            + "0. for Exit)");
 
-        if(op==)) System.exit(0);
+        int op = Integer.parseInt(opcode);
+
+        if(op == 0) {
+            System.exit(0);
+        }
 
         String input1 = JOptionPane.showInputDialog("Enter first number:");
         String input2 = JOptionPane.showInputDialog("Enter second number:");
@@ -39,7 +43,7 @@ public class CalV4{
                 if(num2 != 0){
                     result = num1 / num2;
                 } else {
-                    JOptionPane.showMessageDialog(null, "❌ Error: Cannot divide by zero!");
+                    JOptionPane.showMessageDialog(null, " Error: Cannot divide by zero!");
                     return;
                 }
                 operationSymbol = "/";
@@ -49,7 +53,7 @@ public class CalV4{
                 operationSymbol = "%";
                 break;
             default:
-                JOptionPane.showMessageDialog(null, "❌ Invalid operation selected!");
+                JOptionPane.showMessageDialog(null, " Invalid operation selected!");
                 return;
         }
 
