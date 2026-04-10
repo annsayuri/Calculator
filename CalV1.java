@@ -23,9 +23,7 @@ public class CalV1{
 
         if(op==1) ans =n1 + n2;
         if(op==2) ans =n1 - n2;
-        if(op==3) ans =n1 * n2;
-        if(op==4) ans =n1 / n2;
-        if(op==5) ans =n1 % n2;
+    
 
         JOptionPane.showMessageDialog(null, "Answer is : " + ans);
 
