@@ -11,7 +11,7 @@ public class CalV5 {
             + "3. for Multiplication(*)\n"
             + "4. for Division(/) \n"
             + "5. for Remainder(%) \n "
-            + "0. for Exit)");
+            + "0. for Exit");
 
         int op = Integer.parseInt(opcode);
 
