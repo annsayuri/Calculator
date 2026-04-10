@@ -1,14 +1,14 @@
-import java.swing.JOptionPane;
+import javax.swing.JOptionPane;
 
 public class CalV1{
     public static void main(String[] args){
 
-        String opcode = JOptionPane.showInputDialog("Select Operation\n\n
-        1. for Addition(+)\n" +
-        "2. for Sustraction(-)\n
-        3. for multiplication(*) \n
-        4. for Division(/) \n
-        5. for Remainder(%) ");
+        String opcode = JOptionPane.showInputDialog("Select Operation\n\n" +
+        "1. for Addition(+)\n" +
+        "2. for Sustraction(-)\n" +
+        "3. for multiplication(*) \n" +
+        "4. for Division(/) \n" +
+        "5. for Remainder(%) ");
 
         int op = Integer.parseInt(opcode);
 
